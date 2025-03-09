@@ -1,0 +1,20 @@
+{
+  "name": "lowpolyprincess",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
+  },
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "phaser": "^3.88.2"
+  }
+}
