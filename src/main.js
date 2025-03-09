@@ -2,22 +2,16 @@ import './style.css';
 import Phaser from 'phaser';
 
 // Game configuration
+const sizes = {
+  width: 500,
+  height: 500
+}
+
 const config = {
-  type: Phaser.AUTO,
-  width: 800,
-  height: 600,
-  physics: {
-    default: 'arcade',
-    arcade: {
-      gravity: { y: 300 },
-      debug: false
-    }
-  },
-  scene: {
-    preload: preload,
-    create: create,
-    update: update
-  }
+  type: Phaser.WEBGL,
+  width: sizes.width,
+  height: sizes.height,
+  canvas: gameCanvas
 };
 
 // Initialize the game
